@@ -32,6 +32,7 @@ cc_toolchain(
     linker_files = ":all_files",
     objcopy_files = ":empty",
     strip_files = ":empty",
+    ar_files = ":all_files",
 )
 
 cc_toolchain_suite(
